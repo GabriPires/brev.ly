@@ -3,7 +3,7 @@ import type { ComponentProps } from 'react'
 import { tv, type VariantProps } from 'tailwind-variants'
 
 const iconButton = tv({
-  base: 'flex items-center justify-center rounded-lg h-8 w-8 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed',
+  base: 'flex items-center justify-center rounded-sm h-8 w-8 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed',
   variants: {
     variant: {
       primary:

@@ -1,4 +1,5 @@
 import Logo from '@/assets/logo.svg'
+import { MyLinks } from '@/components/my-links'
 import { NewLinkForm } from '@/components/new-link-form'
 
 export function HomePage() {
@@ -11,6 +12,7 @@ export function HomePage() {
       />
 
       <NewLinkForm />
+      <MyLinks />
     </div>
   )
 }
