@@ -1,14 +1,6 @@
-import { Input } from './components/ui/input'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
 
 export function App() {
-  return (
-    <div className="p-6">
-      <Input
-        id="input"
-        label="Label"
-        placeholder="Placeholder"
-        // errorMessage="Error message"
-      />
-    </div>
-  )
+  return <RouterProvider router={router} />
 }
