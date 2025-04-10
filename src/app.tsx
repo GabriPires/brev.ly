@@ -1,13 +1,14 @@
-import { X } from '@phosphor-icons/react'
-import { Button } from './components/ui/button'
-import { IconButton } from './components/ui/icon-button'
+import { Input } from './components/ui/input'
 
 export function App() {
   return (
-    <>
-      <Button>Label</Button>
-      <Button variant="secondary">Label</Button>
-      <IconButton icon={X} />
-    </>
+    <div className="p-6">
+      <Input
+        id="input"
+        label="Label"
+        placeholder="Placeholder"
+        // errorMessage="Error message"
+      />
+    </div>
   )
 }
