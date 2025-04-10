@@ -6,7 +6,7 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: (
-      <div className="min-h-svh flex flex-col items-center px-3">
+      <div className="min-h-svh px-3">
         <Outlet />
       </div>
     ),
