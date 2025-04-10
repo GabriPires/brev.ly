@@ -4,7 +4,7 @@ import { LinkListItem } from './link-list-item'
 
 export function MyLinks() {
   return (
-    <div className="flex flex-col bg-white p-6 w-full rounded-lg gap-5 mt-3">
+    <div className="flex flex-col bg-white p-6 w-full rounded-lg gap-5 mt-3 lg:col-span-3 lg:mt-0">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-bold">Meus Links</h2>
         <Button variant="secondary">

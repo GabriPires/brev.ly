@@ -30,7 +30,7 @@ export function NewLinkForm() {
 
   return (
     <form
-      className="flex flex-col bg-white p-6 w-full rounded-lg gap-5"
+      className="flex flex-col bg-white p-6 w-full rounded-lg gap-5 lg:col-span-2"
       onSubmit={handleSubmit(onSubmit)}
     >
       <h2 className="text-lg font-bold">Novo link</h2>
